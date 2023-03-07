@@ -150,17 +150,7 @@ def generate():
         The total number of overdue tasks is: {overdue_task}
         {(uncompleted_task / task_count * 100):.2f}% of all tasks are uncompleted
         {(overdue_task / task_count * 100):.2f}% of all tasks are overdue""")
-        '''print(f"The total number of tasks is: {task_count}")
-        print(f"The total number of uncompleted tasks is: {uncompleted_task}")
-        print(f"The total number of completed tasks is: {completed_task}")
-        print(f"The total number of overdue tasks is: {overdue_task}")
-        print(f"{(uncompleted_task / task_count * 100):.2f}% of all tasks are uncompleted")
-        print(f"{(overdue_task / task_count * 100):.2f}% of all tasks are overdue")
-        print(f"The total number of tasks assigned to {username} is: {user_total_tasks}")
-        print(f"{username} has been assigned {(user_total_tasks / task_count * 100):.2f}% of all tasks")
-        print(f"{username} has completed {(user_completed / user_total_tasks * 100):.2f}% of their assigned tasks")
-        print(f"{username} must complete {(user_uncompleted / user_total_tasks * 100):.2f}% of their assigned tasks")
-        print(f"{(user_overdue / user_total_tasks * 100):.2f}% of {username}'s assigned tasks are overdue")'''
+
 
     #calculate and write percentages for the user
     with open("user_overview.txt", "w") as useroverview:
