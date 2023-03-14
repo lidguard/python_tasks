@@ -22,6 +22,7 @@ def format_number():
         else:
             print("Error: your number must be greater than 999. Please try again.\n")
             format_number()
+            
     #except corrects non-integer input and requests corrected input
     except ValueError:
         print("Error: not a number. Please try again. \n")
