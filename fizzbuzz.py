@@ -3,7 +3,10 @@ class Solution:
         self.N = N
         self.M = M
 
+    #empty list to append fizz/buzz/number to recall and print sequence
     fizzbuzz = []
+
+    #try/except to allow for non-int input error handling
     try:
         N = int(input("Enter your starting number: "))
         M = int(input("Enter your ending number: "))
@@ -23,8 +26,8 @@ class Solution:
     except ValueError:
         print("Not a number, try again")
 
+    #join by comma and print sequence as a string
     print(f" {','.join(fizzbuzz)}")
-
 
 
 
