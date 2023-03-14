@@ -4,7 +4,7 @@ should convert the number to a string and add commas as a
 thousand separators. For example, calling format_number(1000000)
 should return "1,000,000".'''
 
-
+#using input to get numbers rather than hard coding one into the function so that it can be rerun over and over until the user is bored
 
 
 def format_number():
